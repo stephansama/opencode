@@ -1,16 +1,15 @@
 {
 	"$schema": "https://opencode.ai/config.json",
 	"theme": "catppuccin",
-	"model": "anthropic/claude-sonnet-4-20250514",
 	"provider": {
-		"npm": "@ai-sdk/openai-compatible",
 		"local": {
+			"npm": "@ai-sdk/openai-compatible",
 			"name": "Local AI Server",
 			"options": {
 				"baseURL": "http://localhost:11434/v1"
 			},
 			"models": {
-				"qwen3": {
+				"qwen3:8b": {
 					"name": "Qwen3"
 				}
 			}
